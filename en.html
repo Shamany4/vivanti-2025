@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Greeting from Vivanti</title>
+
+  <link rel="stylesheet" href="css/styles.css?id=1734376854147">
+
+  <script>
+    function testWebP(callback) {
+      var webP = new Image();
+      webP.onload = webP.onerror = function() {
+        callback(webP.height == 2);
+      };
+      webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+    }
+
+    window.webpChecker = new Promise(function(resolve, reject) {
+      testWebP(function(support) {
+        const className = support ? 'webp' : 'no-webp';
+        document.documentElement.classList.add(className);
+        resolve();
+      });
+    });
+  </script>
+
+  <script type="text/javascript" src="/js/plugins/shareon.iife.js?id=1734376854147" defer></script>
+  <script type="text/javascript" src="/js/plugins/jquery-3.7.1.min.js?id=1734376854147"></script>
+  <script type="text/javascript" src="/js/scripts.js?id=1734376854147"></script>
+
+  <meta property="og:title" content="A Greeting from Vivanti" />
+  <meta property="og:description" content="Choose your Elf  for 2025. Or take them all!" />
+
+</head>
+<body style="background-color: #000103;">
+
+<div class="greeting-card ">
+
+  <div class="share-container">
+    <div class="share-block">
+      <div class="share-block__close"></div>
+      <div class="shareon shareon--ru">
+        <a class="vkontakte"></a>
+        <a class="odnoklassniki"></a>
+        <a class="twitter"></a>
+        <a class="whatsapp"></a>
+        <a class="telegram"></a>
+        <a class="pinterest"></a>
+        <a class="copy-url"></a>
+        <a class="email"></a>
+      </div>
+      <div class="shareon">
+        <a class="facebook"></a>
+        <a class="twitter"></a>
+        <a class="whatsapp"></a>
+        <a class="linkedin"></a>
+        <a class="vkontakte"></a>
+        <a class="telegram"></a>
+        <a class="pinterest"></a>
+        <a class="copy-url"></a>
+        <a class="email"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="greeting-card__desktop">
+    <div class="animation-steps animation-steps--1">
+      <div class="bg-decor bg-decor--top">
+        <div class="bg-decor__stars"></div>
+        <div class="bg-decor__city"></div>
+      </div>
+
+      <div class="main-scene main-scene--back">
+        <a href="https://vivanti.ru/">
+          <img src="/images/viv-logo.svg" alt="Vivanti" class="logo">
+        </a>
+
+        <div class="elves">
+          <div class="elf elf-fisher egg-item"></div>
+          <div class="elf elf-programmer"></div>
+          <div class="elf elf-pirate"></div>
+          <div class="elf elf-astronaut"></div>
+          <div class="elf elf-snake-catcher"></div>
+          <div class="elf elf-painter"></div>
+          <div class="elf elf-doctor"></div>
+          <div class="elf elf-postman"></div>
+          <div class="elf elf-gardener"></div>
+          <div class="elf elf-mechanic"></div>
+          <div class="elf elf-chef"></div>
+          <div class="elf elf-ballerina"></div>
+        </div>
+        <div class="smiles">
+          <div class="smile smile--1"></div>
+          <div class="smile smile--2"></div>
+          <div class="smile smile--3"></div>
+          <div class="smile smile--4"></div>
+          <div class="smile smile--5"></div>
+          <div class="smile smile--6"></div>
+          <div class="smile smile--7"></div>
+          <div class="smile smile--8"></div>
+          <div class="smile smile--9"></div>
+          <div class="smile smile--10"></div>
+          <div class="smile smile--11"></div>
+          <div class="smile smile--12"></div>
+          <div class="smile smile--13"></div>
+          <div class="smile smile--14"></div>
+          <div class="smile smile--15"></div>
+          <div class="smile smile--16"></div>
+          <div class="smile smile--17"></div>
+          <div class="smile smile--18"></div>
+        </div>
+      </div>
+
+      <div class="bg-decor bg-decor--bottom">
+        <div class="bg-decor__snow bg-decor__snow--1"></div>
+        <div class="bg-decor__number-years bg-decor__number-years--big"></div>
+        <div class="bg-decor__snow bg-decor__snow--2"></div>
+        <div class="bg-decor__snow bg-decor__snow--3"></div>
+        <div class="bg-decor__number-years"></div>
+      </div>
+
+      <div class="main-scene main-scene--front">
+        <div class="elves elves--only-front">
+          <div class="elf elf-fisher" data-item="1"></div>
+          <div class="elf elf-programmer" data-item="2"></div>
+          <div class="elf elf-pirate" data-item="3"></div>
+          <div class="elf elf-astronaut" data-item="4"></div>
+          <div class="elf elf-snake-catcher" data-item="5"></div>
+          <div class="elf elf-painter" data-item="6"></div>
+          <div class="elf elf-doctor" data-item="7"></div>
+          <div class="elf elf-postman" data-item="8"></div>
+          <div class="elf elf-gardener" data-item="9"></div>
+          <div class="elf elf-mechanic" data-item="10"></div>
+          <div class="elf elf-chef" data-item="11"></div>
+          <div class="elf elf-ballerina" data-item="12"></div>
+        </div>
+        <div class="сhoose-elf-hint">
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="greeting-card__mobile">
+    <div class="animation-steps animation-steps--1">
+      <div class="bg-decor">
+        <div class="bg-decor__northern-lights"></div>
+        <div class="bg-decor__stars bg-decor__stars--1"></div>
+        <div class="bg-decor__stars bg-decor__stars--2"></div>
+        <div class="bg-decor__gradient"></div>
+        <div class="bg-decor__city"></div>
+        <div class="bg-decor__snow bg-decor__snow--1"></div>
+        <div class="bg-decor__snow bg-decor__snow--2"></div>
+        <div class="bg-decor__snow bg-decor__snow--3"></div>
+        <div class="bg-decor__snow-animated"></div>
+      </div>
+
+      <div class="main-scene main-scene--front">
+        <div class="main-info">
+          <a href="https://vivanti.ru/">
+            <img src="/images/viv-logo.svg" alt="Vivanti" class="logo">
+          </a>
+          <p class="choose-your-elf"></p>
+          <span class="new-year-elves"></span>
+          <div class="congratulations-from-vivanti">
+            <span></span>
+            <svg width="233" height="87" viewBox="0 0 233 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="233" height="87" rx="4" fill="#FFFDFD" fill-opacity="0.9" />
+            </svg>
+            <div class="particle particle--1"></div>
+            <div class="particle particle--2"></div>
+          </div>
+        </div>
+        <div class="years-number"></div>
+        <div class="elves elves--only-front">
+          <div class="elf elf-fisher" data-item="1"></div>
+          <div class="elf elf-programmer" data-item="2"></div>
+          <div class="elf elf-pirate" data-item="3"></div>
+          <div class="elf elf-astronaut" data-item="4"></div>
+          <div class="elf elf-snake-catcher" data-item="5"></div>
+          <div class="elf elf-painter" data-item="6"></div>
+          <div class="elf elf-doctor" data-item="7"></div>
+          <div class="elf elf-postman" data-item="8"></div>
+          <div class="elf elf-gardener" data-item="9"></div>
+          <div class="elf elf-mechanic" data-item="10"></div>
+          <div class="elf elf-chef" data-item="11"></div>
+          <div class="elf elf-ballerina" data-item="12"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup">
+    <div class="popup__content">
+      <div class="popup__text">
+        <p class="popup__desc"></p>
+        <p class="popup__signature"></p>
+      </div>
+      <div class="popup__controls">
+        <div class="popup__control popup__control--share">
+          <div class="popup__control-img">
+            <img src="/images/icon__share.svg" alt="icon">
+          </div>
+          <div class="popup__control-text">Share</div>
+        </div>
+        <div class="popup__control-line"></div>
+        <div class="popup__control popup__control--reroll">
+          <div class="popup__control-img">
+            <img src="/images/icon__reroll.svg" alt="icon">
+          </div>
+          <div class="popup__control-text">Reroll</div>
+        </div>
+      </div>
+      <div class="popup__heroes popup__heroes--only-mobile">
+        <div class="elf"></div>
+        <div class="snake"></div>
+      </div>
+      <div class="popup__logo">
+        <div class="popup__logo-img"></div>
+        <div class="popup__logo-text"></div>
+      </div>
+    </div>
+    <div class="popup__heroes">
+      <div class="elf"></div>
+      <div class="snake"></div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
